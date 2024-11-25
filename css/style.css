@@ -2,6 +2,10 @@ body {
   font-family: "raleway", serif;
 }
 
+.raleway-bold {
+  font-weight: bold;
+}
+
 main {
   display: flex;
 }
@@ -9,7 +13,7 @@ main {
 .contact-list {
   background-color: white|;
   height: 100vh;
-  width: 180px;
+  width: 200px;
 }
 
 .content-box {
@@ -36,4 +40,38 @@ main {
   width: 7rem;
   height: 7rem;
   border-radius: 1rem;
+}
+
+.user-navbar {
+  /*background-color: aliceblue;*/
+  height: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.user-navbar .user-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7rem;
+}
+
+.user-navbar .user-info img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  outline: 2px solid #4f46e5;
+}
+
+.user-data {
+  margin-left: 0.5rem;
+}
+
+.user-navbar .user-menu {
+  display: flex;
+  justify-content: space-between;
 }
