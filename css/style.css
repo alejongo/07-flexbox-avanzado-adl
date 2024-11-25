@@ -1,0 +1,39 @@
+body {
+  font-family: "raleway", serif;
+}
+
+main {
+  display: flex;
+}
+
+.contact-list {
+  background-color: white|;
+  height: 100vh;
+  width: 180px;
+}
+
+.content-box {
+  background-color: #f8fafc;
+  width: 100%;
+  position: relative;
+}
+
+.content-box .content-main-card {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+  margin: 2%;
+  border-radius: 1rem;
+}
+
+.content-box .content-main-card .empty-state-logo {
+  background-color: #34d399;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1rem;
+}
