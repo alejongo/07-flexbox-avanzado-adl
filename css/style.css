@@ -38,10 +38,18 @@ main {
 }
 
 .content-box .content-main-card .empty-state-logo {
-  background-color: #34d399;
+  background-color: #86efac;
   width: 7rem;
   height: 7rem;
   border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box .content-main-card p,
+h2 {
+  text-align: center;
 }
 
 .user-navbar {
