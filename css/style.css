@@ -8,6 +8,10 @@ body {
   font-weight: bold;
 }
 
+.raleway-semibold {
+  font-weight: 500;
+}
+
 main {
   display: flex;
 }
@@ -21,6 +25,7 @@ main {
 .content-box {
   background-color: #f8fafc;
   width: 100%;
+  min-width: 600px;
   position: relative;
 }
 
@@ -54,12 +59,11 @@ h2 {
 
 .user-navbar {
   /*background-color: aliceblue;*/
-  height: 3rem;
+  height: 2rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 1px solid #cbd5e1;
 }
 
 .user-navbar .user-info {
@@ -92,8 +96,7 @@ h2 {
 }
 
 .new-chat-button-container {
-  height: 5rem;
-  background-color: #f8fafc;
+  height: 4.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +124,7 @@ h2 {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .contact-chat-list .contact-info {
@@ -131,6 +134,11 @@ h2 {
   align-items: center;
   justify-content: start;
   border-bottom: 1px solid #cbd5e1;
+}
+
+.contact-chat-list .contact-info:hover {
+  cursor: pointer;
+  background-color: #f8fafc;
 }
 
 .contact-data {
@@ -165,7 +173,7 @@ h2 {
 }
 
 .contact-info .contact-data {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -187,5 +195,5 @@ h2 {
 *::-webkit-scrollbar-thumb {
   background-color: #dbe2e6;
   border-radius: 10px;
-  border: 3px none #ffffff;
+  border: 3px solid #ffffff;
 }
