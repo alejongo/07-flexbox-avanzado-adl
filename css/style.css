@@ -1,5 +1,7 @@
 body {
   font-family: "raleway", serif;
+  margin: 0;
+  padding: 0;
 }
 
 .raleway-bold {
@@ -11,9 +13,9 @@ main {
 }
 
 .contact-list {
-  background-color: white|;
+  background-color: white;
   height: 100vh;
-  width: 200px;
+  min-width: 200px;
 }
 
 .content-box {
@@ -83,10 +85,11 @@ main {
 
 .new-chat-button-container {
   height: 5rem;
-  background-color: aliceblue;
+  background-color: #f8fafc;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid #cbd5e1;
 }
 
 .new-chat-button {
@@ -102,4 +105,56 @@ main {
   outline: 2px solid #a5b4fc;
   outline-offset: 1px;
   cursor: pointer;
+}
+
+.contact-chat-list {
+  height: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.contact-chat-list .contact-info {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.contact-data .contact-name {
+  width: 120px;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-data .contact-last-message {
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-chat-list img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  outline: 2px solid #a5b4fc;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.contact-info .contact-data {
+  font-size: 0.9rem;
 }
