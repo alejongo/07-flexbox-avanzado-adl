@@ -2,4 +2,4 @@
 
 ## GitHub Page
 
-[Ver GitHub Page] (https://alejongo.github.io/07-flexbox-avanzado-adl/)
+[Ver GitHub Page](https://alejongo.github.io/07-flexbox-avanzado-adl/)
